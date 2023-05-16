@@ -1,0 +1,165 @@
+{
+    "general": {
+        "amount": "수량",
+        "amount_received": "받은 수량",
+        "amount_sent": "보낸 수량",
+        "auto_refresh": "자동 새로고침",
+        "block": "블록 ::: 블록",
+        "block_height": "블록 높이",
+        "click_to_start": "클릭하여 시작",
+        "confirmation": "확인 ::: 확인",
+        "created": "만들어진지",
+        "details": "세부 사항",
+        "difficulty": "난이도",
+        "fee": "수수료 ::: 수수료",
+        "fees_per_kb": "KB당 수수료",
+        "hash_rate": "해시 레이트",
+        "key_image": "Key image",
+        "loading": "로딩중",
+        "median_block_size": "중간 블록 크기",
+        "mining_reward": "채굴 보상",
+        "mining_transactions": "채굴 트랜잭션",
+        "mining_reward_transaction": "블록 보상 트랜잭션",
+        "not_provided": "미제공",
+        "pagination_load_more": "더 알아보기",
+        "paused": "일시정지됨",
+        "payment_id": "Payment ID",
+        "payment_id_8": "Payment ID (암호화)",
+        "public_key": "퍼블릭 키",
+        "search_placeholder": "트랜잭션, 블록 검색하기...",
+        "second": "초 ::: 초",
+        "secret_view_key": "개인 키 보기",
+        "size": "크기",
+        "size_in_kb": "KB 크기",
+        "stealth_address": "스텔스 주소",
+        "time": "시간",
+        "transaction_id": "트랜잭션 ID",
+        "transaction": "트랜잭션 ::: 트랜잭션",
+        "transactions_total": "전체 트랜잭션",
+        "transactions_queued": "대기중 트랜잭션",
+        "testnet": "테스트넷"
+    },
+    "forms": {
+        "deposit_address": "받는 지갑 주소",
+        "enter_deposit_address": "받는 지갑 주소를 입력해주세요...",
+        "secret_view_key": "귀하의 시크릿 키",
+        "enter_secret_key": "귀하의 시크릿 키를 입력해주세요...",
+        "enter_transaction_id": "트랜잭션 ID를 입력해주세요...",
+        "recipient_address": "받는 주소",
+        "enter_recipient_address": "받는 주소를 입력해주세요...",
+        "secret_transaction_key": "트랜잭션 시크릿 키",
+        "enter_transaction_secret_key": "트랜잭션의 시크릿 키를 입력해주세요...",
+        "check_deposit": "확인하기",
+        "get_receipt": "확인하기",
+        "errors": {
+            "api_error_title": "죄송합니다, 문제가 있었어요. 어떤 문제냐면요:",
+            "transaction_id": "트랜잭션 ID를 입력해주세요.",
+            "monero_address": "올바른 모네로 주소를 입력해주세요.",
+            "view_key": "View Key를 입력해주세요."
+        }
+    },
+    "nav": {
+        "receipts": "트랜잭션 확인 (받는 분)",
+        "deposits": "트랜잭션 확인 (보내는 분)",
+        "blocks": "블록",
+        "queue": "대기열",
+        "info": "정보"
+    },
+    "error": {
+        "check_back_soon": "잠시 후에 다시 시도해주세요...",
+        "load": "죄송합니다, 몇가지 기술적 문제가 있어요. 잠시 후에 다시 시도해주세요..."
+    },
+    "home": {
+    	"intro": "무엇을 원하시나요?",
+    	"para": "<a href=\"https://getmonero.org/\" target=\"_blank\">Monero</a> 는 보안성에 중점을 둔 디지털 결제 시스템입니다. 이 서비스를 사용하면 네트워크의 공개 활동을 쉽게 찾아볼 수 있습니다.",
+    	"i_sent_monero": "모네로를 보냈어요",
+    	"i_received_monero": "모네로를 받았어요",
+    	"view_new_blocks": "새 블록 보기",
+    	"view_transaction_queue": "트랜잭션 대기열 보기",
+    	"network_info_and_about": "네트워크 정보",
+        "verify_a_transaction": "트랜잭션 확인하기",
+        "explore_the_network": "네트워크 탐색하기"
+    },
+    "blocks": {
+        "page_title": "최근 블록",
+        "intro": "최근 블록",
+        "para": "이것들은 최근에 채굴된 블록들과 최신 트랜잭션들입니다.",
+        "block_size_graph_info": "허용되는 중앙값 및 최대값과 비교한 블록 크기입니다."
+    },
+    "block": {
+        "intro": "블록 세부사항",
+        "para": "블록과 트랜잭션 세부사항."
+    },
+    "transaction": {
+        "text": "이것은 공개 거래 요약입니다. 아래 옵션으로 주소 및 금액 정보를 확인할 수 있습니다..",
+        "confirmations_needed": "{count} 컨펌 후 완료됨.",
+        "no_block_assigned": "할당된 블록이 없음",
+        "inputs": "{count} 입력 (입금) ::: {count} 입력 (입금)",
+        "no_inputs": "입력 없음 (입금)",
+        "outputs": "{count} 출력 (출금) ::: {count} 출력 (출금)",
+        "no_outputs": "출력 없음 (출금)",
+        "ring_member": "{count} 링 멤버 ::: {count} 링 멤버",
+        "no_ring_members": "링 멤버 없음",
+        "get_send_receipt": "전송 영수증 받기",
+        "verify_deposit": "입금 확인하기",
+        "status": {
+            "done": "완료됨!",
+            "queued": "대기중...",
+            "sending": "보내는 중..."
+        }
+    },
+    "mempool": {
+        "page_title": "트랜잭션 대기열",
+        "title": "트랜잭션 대기열",
+        "text": "해당 거래들은 네트워크 처리 및 확인을 대기중입니다. 이것은 mempool이라고도합니다."
+    },
+    "deposit": {
+        "page_title": "입금 확인",
+        "form": {
+            "title": "입금이 확인되었는지 보기",
+            "text": "트랜잭션에 특정 주소에 대한 입금이 포함되어 있는지 확인하고 네트워크에서 확인되었는지 확인하십시오."
+        },
+        "result": {
+            "title": "입금 확인됨",
+            "text": "입금이 되었다는 확인입니다. 이 링크를 증거로 다른 사람과 공유할 수 있습니다.",
+            "check_another_deposit": "다른 입금 확인하기"
+        }
+    },
+    "receipt": {
+        "page_title": "영수증 보내기",
+        "form": {
+            "title": "트랜잭션 영수증 받기",
+            "text": "모네로를 보냈다는것을 증명할 수 있습니다. <a href=\"https://getmonero.org/resources/user-guides/prove-payment.html\" target=\"_blank\">가이드 보기</a>."
+        },
+        "result": {
+            "title": "트랜잭션 완료됨",
+            "text": "거래가 전송되었다는 영수증입니다. 이 링크를 증거로 다른 사람과 공유할 수 있습니다.",
+            "check_another_transaction": "Check another transaction"
+        }
+    },
+    "info": {
+        "page_title": "Explore Monero 에 대해",
+        "network_info": {
+            "title": "네트워크 정보",
+            "text": "모네로 네트워크의 현재 상태."
+        },
+        "about": {
+            "title": "Explore Monero 에 대해",
+            "text": "비하인드 스토리 엿보기."
+        },
+        "project_info": {
+            "title": "프로젝트 정보",
+            "text": "이 웹사이트는 <a href=\"http://www.germanysbestkeptsecret.com\" target=\"_blank\">GBKS</a>에 의해 디자인 되었어요. <a href=\"https://twitter.com/gbks\" target=\"_blank\">트위터</a> 으로 피드백, 아이디어 등을 보내주세요. 일반적으로 저는 사람들이 웹사이트를 어떻게 사용하는지 이해하기 위해 분석 도구를 사용하지만 Monero는 개인 정보 보호에 관한 것이므로 실행 중인 추적 서비스가 없습니다. 따라서 보고 싶은 개선 사항에 대해 저에게 직접 알려주시기만 하면 됩니다."
+        },
+        "data": {
+            "title": "데이터",
+            "text": "모든 데이터는 <a href=\"https://github.com/moneroexamples/onion-monero-blockchain-explorer\" target=\"_blank\">어니언 블록체인 탐색기</a>를 운영중인 <a href=\"https://xmrchain.net\" target=\"_blank\">xmrchain.net</a>에서 받아오고 있어요. 모든 기여자분께 감사드려요."
+        },
+        "contributors": {
+            "title": "로컬라이제이션 기여자"
+        },
+        "donation": {
+            "title": "기부 주소 (감사합니다!)"
+        }
+    }
+}
